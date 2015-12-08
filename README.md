@@ -47,13 +47,13 @@ Create the database
 Fill the collection shows with contents
  
 ```bash
-	$ db.shows.insert([
-		{ "_id" : ObjectId("566692fd8db97f41fbd348e4"), "title" : "Breaking Bad", "rated" : "9.5" },
-    	{ "_id" : ObjectId("566693128db97f41fbd348e5"), "title" : "Game of Thrones", "rated" : "9.5" },
-    	{ "_id" : ObjectId("5666a4038db97f41fbd348e6"), "title" : "The Wire", "rated" : "9.3" },
-    	{ "_id" : ObjectId("5666a4198db97f41fbd348e7"), "title" : "Firefly", "rated" : "9.1" },
-    	{ "_id" : ObjectId("5666a4288db97f41fbd348e8"), "title" : "Narcos", "rated" : "9.0" }
-	])
+$ db.shows.insert([
+	{ "_id" : ObjectId("566692fd8db97f41fbd348e4"), "title" : "Breaking Bad", "rated" : "9.5" },
+    { "_id" : ObjectId("566693128db97f41fbd348e5"), "title" : "Game of Thrones", "rated" : "9.5" },
+    { "_id" : ObjectId("5666a4038db97f41fbd348e6"), "title" : "The Wire", "rated" : "9.3" },
+    { "_id" : ObjectId("5666a4198db97f41fbd348e7"), "title" : "Firefly", "rated" : "9.1" },
+    { "_id" : ObjectId("5666a4288db97f41fbd348e8"), "title" : "Narcos", "rated" : "9.0" }
+])
 ```
 
 Start the app
