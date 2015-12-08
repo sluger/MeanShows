@@ -1,0 +1,14 @@
+<h1>Shows</h1>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <th>Title</th>
+    <th>IMDB Rating</th>
+  </thead>
+  <tbody>
+    <tr ng-repeat="show in shows | orderBy : '-rated'">
+      <td>{{show.title}}</td>
+      <td>{{show.rated}}</td>
+    </tr>
+    </tbody>
+</div>
